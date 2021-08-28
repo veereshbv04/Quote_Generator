@@ -3,11 +3,11 @@ const btn = document.querySelector("#cat-pic");
 
 const quotesURL = "https://api.kanye.rest/";
 
-// fetch(quotesURL)
-// .then(response => response.json())
-// .then( quote =>{
-//     quotesDiv.innerHTML+= `<p>${quote.quote}</p>`
-// })
+fetch(quotesURL)
+.then(response => response.json())
+.then( quote =>{
+    quotesDiv.innerHTML+= `<p>${quote.quote}</p>`
+})
 
 function clickHandler(){
     fetch(quotesURL)

@@ -1,0 +1,29 @@
+body{
+    margin: 2rem;
+    background:linear-gradient(90deg, rgb(255, 230, 0),aqua,orange,white, green);
+    max-width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+h1{
+    font-family:monospace;
+    font-size: 2rem;
+    color: salmon;
+}
+p{
+    font-family:monospace;
+    font-size: 4rem;
+    color: rgba(112, 27, 223, 0.842);
+}
+
+button{
+    background-color: rgb(252, 181, 29);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: honeydew;
+    color: purple;
+    font-weight: bold;
+}
